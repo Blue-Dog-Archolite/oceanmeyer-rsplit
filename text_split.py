@@ -7,8 +7,8 @@ lines = []
 row_count = 0
 
 # This is where you change it.
-line_delimiter = ';'
-row_delimiter = ','
+line_delimiter = ';' # this is \n for end of line
+row_delimiter = ','  # this is \t for tabs
 
 txt = open(filename)
 
